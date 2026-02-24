@@ -19,7 +19,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build image
-        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/tp3-vue:v2 .
+        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/tp3-vue:v3 .
 
       - name: Push image
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/tp3-vue:v2
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/tp3-vue:v3
