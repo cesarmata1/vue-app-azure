@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>TP3 - Déploiement Vue.js avec Docker 🚀</h1>
+    <h1>DEPLOY AUTOMÁTICO FUNCIONA </h1>
     <h2>Application déployée sur Azure App Service</h2>
     <p>Conteneurisé avec Docker</p>
     <p>Image hébergée sur Docker Hub</p>
